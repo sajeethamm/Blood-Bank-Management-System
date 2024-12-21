@@ -1,0 +1,40 @@
+.donor-list {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.donor-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.donor-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: #343a40;
+  text-align: center;
+  font-weight: bold;
+}
+
+.donor-card p {
+  margin: 5px 0;
+}
+
+.donor-card p strong {
+  color: #343a40;
+}
+
+.donor-card .btn-danger {
+  margin-top: 10px;
+}

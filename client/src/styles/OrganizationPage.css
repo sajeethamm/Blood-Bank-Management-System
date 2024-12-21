@@ -1,0 +1,25 @@
+.organization-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.organization-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.organization-card h4 {
+  margin-bottom: 10px;
+}
+
+.organization-card p {
+  margin: 5px 0;
+}
+
+.organization-card p strong {
+  color: #343a40;
+}

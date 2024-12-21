@@ -1,0 +1,86 @@
+.card-container {
+  margin-bottom: 40px;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.card-green {
+  border-left: 5px solid #28a745; /* Green border for Inventory In */
+}
+
+.card-red {
+  border-left: 5px solid #dc3545; /* Red border for Inventory Out */
+}
+
+.card-body {
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.summary-card {
+  background-color: #f8f9fa; /* Light gray background for summary cards */
+}
+
+/* //////////////////////// */
+.highlight-blood-group {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.blood-group-A-positive {
+  background-color: #ff6666;
+}
+
+.blood-group-A-negative {
+  background-color: #ff9999;
+}
+
+.blood-group-B-positive {
+  background-color: #66b3ff;
+}
+
+.blood-group-B-negative {
+  background-color: #99ccff;
+}
+
+.blood-group-AB-positive {
+  background-color: #ffcc66;
+}
+
+.blood-group-AB-negative {
+  background-color: #ffdd99;
+}
+
+.blood-group-O-positive {
+  background-color: #66ff66;
+}
+
+.blood-group-O-negative {
+  background-color: #99ff99;
+}

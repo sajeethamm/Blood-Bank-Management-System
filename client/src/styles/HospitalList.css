@@ -1,0 +1,36 @@
+.hospital-list {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.hospital-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.hospital-card h4 {
+  font-size: 1.25rem;
+  color: #343a40;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hospital-card p {
+  margin: 5px 0;
+}
+
+.hospital-card button {
+  margin-top: 10px;
+}

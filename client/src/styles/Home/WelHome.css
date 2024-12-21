@@ -1,0 +1,150 @@
+.welcome-home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  width: auto;
+}
+
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-small {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e50914;
+}
+
+.custom-nav .nav-list {
+  display: flex;
+  list-style: none;
+  margin-top: -15px;
+  padding: 0;
+}
+
+.custom-nav .nav-item {
+  margin: 0 15px;
+}
+
+.custom-nav .nav-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.custom-nav .join-btn {
+  background-color: #e50914;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 40px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.join-now-btn {
+  background-color: #e50914;
+  color: white;
+}
+
+.contact-us-btn {
+  background-color: white;
+  color: #e50914;
+  border: 2px solid #e50914;
+}
+
+.hero-slider {
+  max-width: 45%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.custom-footer {
+  text-align: center;
+  position: relative;
+  background-color: #333;
+  color: white;
+}
+
+.custom-footer .highlight {
+  color: #e50914;
+}
+
+.team-members-btn {
+  position: absolute;
+  top: 5%;
+  right: 20px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right center;
+  background-color: #e50914;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
